@@ -1,0 +1,6 @@
+name = "pub-sign-ai"
+main = "worker.js"
+compatibility_date = "2026-06-14"
+
+[vars]
+OPENAI_MODEL = "gpt-5.4-mini"

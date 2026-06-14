@@ -25,9 +25,17 @@ Open `http://localhost:8080`.
 
 Jobs are stored in the browser on the current device. Files are not uploaded to a server.
 
-## OpenAI
+## OpenAI analysis
 
-This static GitHub Pages MVP works without an API key. Do not put an OpenAI key in browser code. AI extraction should be added later through a secure server endpoint.
+The primary workflow is now upload-first:
+
+1. Upload current sign/menu photos, PDFs, logo and venue references.
+2. AI infers the brand and extracts each sign.
+3. Review original wording beside suggested improvements.
+4. Approve the original, suggestion or an edited version.
+5. Generate and export the pack.
+
+The secure endpoint is included in `/worker`. Deploy it and set its URL in `config.js`. The OpenAI key stays in the worker environment and is never placed in browser code.
 
 ## Limitations
 

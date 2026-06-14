@@ -33,3 +33,15 @@ No focused crop was needed because the key navigation, progress, table and sign-
 - P3: Replace the initials masthead with an uploaded logo in exported PDFs.
 
 final result: passed
+
+## AI-First Workflow Update
+
+- Implementation screenshot: `implementation-ai.png`
+- Viewport: 1280 x 720
+- State: wording approval after analysis
+
+The upload-first revision retains the established Publican's Workbench visual system. Original and suggested copy are visibly separated, approval actions are explicit, important verification warnings remain prominent, and the live sign preview stays readable alongside the decision.
+
+Browser verification found no console warnings or errors. Worker syntax and its health response were also verified.
+
+final result: passed
